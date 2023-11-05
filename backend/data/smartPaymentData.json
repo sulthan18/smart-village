@@ -1,0 +1,286 @@
+{
+  "bills": [
+    {
+      "id": 1,
+      "bill_type": "Electricity",
+      "due_date": "2023-10-31",
+      "amount": 150.0,
+      "paid": false
+    },
+    {
+      "id": 2,
+      "bill_type": "Water",
+      "due_date": "2023-10-31",
+      "amount": 50.0,
+      "paid": false
+    },
+    {
+      "id": 3,
+      "bill_type": "Internet",
+      "due_date": "2023-10-31",
+      "amount": 80.0,
+      "paid": true
+    },
+    {
+      "id": 4,
+      "bill_type": "Gas",
+      "due_date": "2023-10-31",
+      "amount": 70.0,
+      "paid": false
+    },
+    {
+      "id": 5,
+      "bill_type": "Phone",
+      "due_date": "2023-10-31",
+      "amount": 40.0,
+      "paid": false
+    },
+    {
+      "id": 6,
+      "bill_type": "Rent",
+      "due_date": "2023-10-31",
+      "amount": 400.0,
+      "paid": true
+    },
+    {
+      "id": 7,
+      "bill_type": "Trash",
+      "due_date": "2023-10-31",
+      "amount": 20.0,
+      "paid": false
+    },
+    {
+      "id": 8,
+      "bill_type": "Insurance",
+      "due_date": "2023-10-31",
+      "amount": 120.0,
+      "paid": false
+    },
+    {
+      "id": 9,
+      "bill_type": "Credit Card",
+      "due_date": "2023-10-31",
+      "amount": 60.0,
+      "paid": true
+    },
+    {
+      "id": 10,
+      "bill_type": "Healthcare",
+      "due_date": "2023-10-31",
+      "amount": 90.0,
+      "paid": false
+    },
+    {
+      "id": 11,
+      "bill_type": "School Fees",
+      "due_date": "2023-10-31",
+      "amount": 200.0,
+      "paid": false
+    },
+    {
+      "id": 12,
+      "bill_type": "Garbage Collection",
+      "due_date": "2023-10-31",
+      "amount": 30.0,
+      "paid": true
+    },
+    {
+      "id": 13,
+      "bill_type": "Cable TV",
+      "due_date": "2023-10-31",
+      "amount": 100.0,
+      "paid": false
+    },
+    {
+      "id": 14,
+      "bill_type": "Maintenance",
+      "due_date": "2023-10-31",
+      "amount": 55.0,
+      "paid": false
+    },
+    {
+      "id": 15,
+      "bill_type": "Tax",
+      "due_date": "2023-10-31",
+      "amount": 180.0,
+      "paid": false
+    },
+    {
+      "id": 16,
+      "bill_type": "Library Fees",
+      "due_date": "2023-10-31",
+      "amount": 25.0,
+      "paid": true
+    },
+    {
+      "id": 17,
+      "bill_type": "Home Security",
+      "due_date": "2023-10-31",
+      "amount": 75.0,
+      "paid": false
+    },
+    {
+      "id": 18,
+      "bill_type": "Parking Fees",
+      "due_date": "2023-10-31",
+      "amount": 35.0,
+      "paid": false
+    },
+    {
+      "id": 19,
+      "bill_type": "Property Tax",
+      "due_date": "2023-10-31",
+      "amount": 110.0,
+      "paid": true
+    },
+    {
+      "id": 20,
+      "bill_type": "Car Insurance",
+      "due_date": "2023-10-31",
+      "amount": 85.0,
+      "paid": false
+    }
+  ],
+  "transport_tickets": [
+    {
+      "id": 1,
+      "ticket_type": "Bus",
+      "route": "Route A",
+      "departure_time": "2023-11-01T09:00:00Z",
+      "price": 5.0
+    },
+    {
+      "id": 2,
+      "ticket_type": "Train",
+      "route": "Route B",
+      "departure_time": "2023-11-02T10:30:00Z",
+      "price": 10.0
+    },
+    {
+      "id": 3,
+      "ticket_type": "Bus",
+      "route": "Route C",
+      "departure_time": "2023-11-03T08:45:00Z",
+      "price": 6.0
+    },
+    {
+      "id": 4,
+      "ticket_type": "Train",
+      "route": "Route D",
+      "departure_time": "2023-11-04T11:15:00Z",
+      "price": 8.0
+    },
+    {
+      "id": 5,
+      "ticket_type": "Bus",
+      "route": "Route E",
+      "departure_time": "2023-11-05T07:30:00Z",
+      "price": 5.0
+    },
+    {
+      "id": 6,
+      "ticket_type": "Train",
+      "route": "Route F",
+      "departure_time": "2023-11-06T09:45:00Z",
+      "price": 10.0
+    },
+    {
+      "id": 7,
+      "ticket_type": "Bus",
+      "route": "Route G",
+      "departure_time": "2023-11-07T08:15:00Z",
+      "price": 6.0
+    },
+    {
+      "id": 8,
+      "ticket_type": "Train",
+      "route": "Route H",
+      "departure_time": "2023-11-08T12:00:00Z",
+      "price": 8.0
+    },
+    {
+      "id": 9,
+      "ticket_type": "Bus",
+      "route": "Route I",
+      "departure_time": "2023-11-09T06:30:00Z",
+      "price": 5.0
+    },
+    {
+      "id": 10,
+      "ticket_type": "Train",
+      "route": "Route J",
+      "departure_time": "2023-11-10T11:30:00Z",
+      "price": 10.0
+    },
+    {
+      "id": 11,
+      "ticket_type": "Bus",
+      "route": "Route K",
+      "departure_time": "2023-11-11T07:00:00Z",
+      "price": 6.0
+    },
+    {
+      "id": 12,
+      "ticket_type": "Train",
+      "route": "Route L",
+      "departure_time": "2023-11-12T10:00:00Z",
+      "price": 8.0
+    },
+    {
+      "id": 13,
+      "ticket_type": "Bus",
+      "route": "Route M",
+      "departure_time": "2023-11-13T08:30:00Z",
+      "price": 5.0
+    },
+    {
+      "id": 14,
+      "ticket_type": "Train",
+      "route": "Route N",
+      "departure_time": "2023-11-14T09:30:00Z",
+      "price": 10.0
+    },
+    {
+      "id": 15,
+      "ticket_type": "Bus",
+      "route": "Route O",
+      "departure_time": "2023-11-15T07:15:00Z",
+      "price": 6.0
+    },
+    {
+      "id": 16,
+      "ticket_type": "Train",
+      "route": "Route P",
+      "departure_time": "2023-11-16T12:30:00Z",
+      "price": 8.0
+    },
+    {
+      "id": 17,
+      "ticket_type": "Bus",
+      "route": "Route Q",
+      "departure_time": "2023-11-17T07:45:00Z",
+      "price": 5.0
+    },
+    {
+      "id": 18,
+      "ticket_type": "Train",
+      "route": "Route R",
+      "departure_time": "2023-11-18T11:00:00Z",
+      "price": 10.0
+    },
+    {
+      "id": 19,
+      "ticket_type": "Bus",
+      "route": "Route S",
+      "departure_time": "2023-11-19T06:45:00Z",
+      "price": 6.0
+    },
+    {
+      "id": 20,
+      "ticket_type": "Train",
+      "route": "Route T",
+      "departure_time": "2023-11-20T10:15:00Z",
+      "price": 8.0
+    }
+  ]
+}

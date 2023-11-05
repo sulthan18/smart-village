@@ -1,0 +1,16 @@
+{
+    "facilities": [
+        {
+            "id": 1,
+            "name": "Taman Desa",
+            "description": "Taman umum dengan area bermain anak-anak dan tempat duduk.",
+            "status": "aktif"
+        },
+        {
+            "id": 2,
+            "name": "Pasar Desa",
+            "description": "Pasar tradisional dengan berbagai pedagang dan produk lokal.",
+            "status": "aktif"
+        }
+    ]
+}

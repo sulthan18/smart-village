@@ -1,0 +1,22 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Pendaftaran Kependudukan",
+            "description": "Layanan untuk mendaftarkan diri sebagai warga desa",
+            "status": "aktif"
+        },
+        {
+            "id": 2,
+            "name": "Pembuatan Surat Keterangan",
+            "description": "Layanan untuk membuat surat keterangan, seperti surat keterangan domisili, surat keterangan belum menikah, dll.",
+            "status": "aktif"
+        },
+        {
+            "id": 3,
+            "name": "Pengaduan Masyarakat",
+            "description": "Layanan untuk menyampaikan pengaduan masyarakat",
+            "status": "aktif"
+        }
+    ]
+}
