@@ -1,24 +1,19 @@
-const { createPool } = require('mysql');
-
-// Membuat koneksi pool
-const pool = createPool({
+const development = {
+  database: {
     host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'sulthandb',
-    connectionLimit: 10
-});
+    port: 27017,
+    name: 'eLibrary',
+  },
+};
 
-// Contoh query: Ambil semua data dari tabel 'nama_tabel'
-pool.query('SELECT * FROM nama_tabel', (error, results, fields) => {
-    if (error) {
-        console.error('Error querying the database:', error);
-        return;
-    }
+const production = {
+  database: {
+    host: process.env.DB_HOST || 'localhost',
+    port: process.env.DB_PORT || 27017,
+    name: process.env.DB_NAME || 'eLibrary',
+  },
+};
 
-    // Hasil query tersedia dalam 'results'
-    console.log('Hasil Query:', results);
-});
+const config = process.env.NODE_ENV === 'production' ? production : development;
 
-// Ingatlah untuk menjaga koneksi agar tetap terbuka jika Anda memiliki query lebih lanjut
-// pool.end();
+module.exports = config;

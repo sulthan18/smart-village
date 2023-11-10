@@ -1,0 +1,38 @@
+{
+  "authors": [
+    {
+      "id": "author1",
+      "name": "Budi Angga"
+    },
+    {
+      "id": "author2",
+      "name": "Caca Mariska"
+    }
+  ],
+  "books": [
+    {
+      "id": "book1",
+      "name": "Sample Book 1",
+      "year": 2022,
+      "authorId": "author1",
+      "summary": "A sample book summary.",
+      "publisher": "Publisher A",
+      "pageCount": 300,
+      "readPage": 100,
+      "finished": false,
+      "reading": true
+    },
+    {
+      "id": "book2",
+      "name": "Sample Book 2",
+      "year": 2021,
+      "authorId": "author2",
+      "summary": "Another sample book summary.",
+      "publisher": "Publisher B",
+      "pageCount": 250,
+      "readPage": 250,
+      "finished": true,
+      "reading": false
+    }
+  ]
+}
