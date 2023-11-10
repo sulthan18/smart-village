@@ -99,7 +99,7 @@ header {
   background: var(--green-color);
   border-radius: 5rem;
   color: var(--bg-color);
-  /* transition: background 0.5s; */
+  transition: 0.5s;
 }
 
 #menu-icon {
@@ -108,59 +108,23 @@ header {
   z-index: 10001;
   display: none;
 }
-
 .container {
   position: relative;
   width: 100%;
+  max-width: 100%;
   min-height: 640px;
-  display: flex;
-  align-items: center;
-  /* background: url(/assets/images/bg.jpg); */
-  background-repeat: repeat;
+  display: flex; /* Menambahkan display flex */
+  align-items: center; /* Menambahkan align-items center */
+  justify-content: center; /* Menambahkan justify-content center */
+  background-repeat: no-repeat; /* Menghilangkan background-repeat */
   background-size: cover;
   background-position: center;
-  /* overflow: hidden; */
 }
-/* .container img {
-    width: 400px;
-    position: absolute;
-    bottom: -500px;
 
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container img {
-  width: 400px;
-  position: absolute;
-  bottom: -500px;
-  right: 200px;
-} */
-/* 
+.container img {
+  width: 100%; /* Mengubah lebar gambar menjadi 100% */
+  max-width: 100%; /* Menambahkan max-width 100% */
+}
 .home-text {
   padding: 0 150px;
 }
@@ -176,27 +140,30 @@ header {
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
 .btn {
-    padding: 0.6 rem 1rem;
-    background: var(--green-color);
-    color: var(--bg-color);
-    font-weight: 400;
-    border-radius: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 0.5rem;
-    max-width: 160px;
+  padding: 0.6rem 1rem;
+  background: var(--green-color);
+  color: var(--bg-color);
+  font-weight: 400;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+  max-width: 160px;
 }
+
 .btn .bx {
-    padding: 4px;
-    background: var(--bg-color);
-    color: var(--text-color);
-    border-radius: 1rem;
-    font-size: 20px;
-    margin: auto;
+  padding: 4px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 1rem;
+  font-size: 20px;
+  margin: auto;
 }
+
 .btn:hover {
-    background: var(--light-orange-color);
-    transition: 0.2 ease;
-} */
+  background: var(--light-orange-color);
+  transition: 0.2 ease;
+}
